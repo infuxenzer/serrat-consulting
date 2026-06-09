@@ -205,6 +205,10 @@ button {
   align-items: start;
 }
 
+.profileText {
+  grid-column: 1;
+}
+
 .profileText h1 {
   margin: 0 0 38px;
   font-size: clamp(42px, 7vw, 84px);
@@ -219,6 +223,8 @@ button {
 }
 
 .profileImageBlock {
+  grid-column: 2;
+  grid-row: 1;
   position: sticky;
   top: 110px;
   margin-top: 26px;
@@ -236,6 +242,11 @@ button {
   font-size: 14px;
   line-height: 1.35;
   letter-spacing: 0.08em;
+}
+
+.profileBackLink {
+  grid-column: 1;
+  grid-row: 2;
 }
 
 /* mobile */
