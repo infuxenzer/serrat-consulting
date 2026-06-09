@@ -52,7 +52,7 @@ export default function CaseStudiesPage() {
 
           <figure>
             <img
-              src="/case-studies/agave-price-forecast.png"
+              src="/agave-price-forcast.png"
               alt="Agave price forecast chart from 2003 to 2034"
             />
             <figcaption>Agave Price Forecast, 2003–2034</figcaption>
