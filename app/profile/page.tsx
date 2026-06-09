@@ -68,23 +68,24 @@ export default function ProfilePage() {
             market research. I am a native English speaker, fluent in Spanish,
             conversational in French, and have a working knowledge of Italian.
           </p>
-
+          
           <p>
             I am always interested in connecting with producers, importers,
             investors, and brand builders who are serious about the craft
             spirits space.
           </p>
-
-          <aside className="profileImageBlock">
-            <img src="/profile.png" alt="Montserrat Rodriguez" />
-            <p>Montserrat Rodriguez / Serrat Spirits Consulting</p>
-          </aside>
-
-          <a className="backLink" href="/">
-            [ back ]
-          </a>
         </div>
+
+        <aside className="profileImageBlock">
+          <img src="/profile.png" alt="Montserrat Rodriguez" />
+          <p>Montserrat Rodriguez / Serrat Spirits Consulting</p>
+        </aside>
+
+        <a className="backLink profileBackLink" href="/">
+          [ back ]
+        </a>
       </section>
     </main>
   );
 }
+          
