@@ -592,3 +592,24 @@ button {
     letter-spacing: 0.06em;
   }
 }
+.serviceList {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  margin-top: 52px;
+  max-width: 860px;
+}
+
+.serviceItem h2 {
+  margin: 0 0 10px;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+}
+
+.serviceItem p {
+  margin: 0;
+  max-width: 760px;
+  font-size: 20px;
+  line-height: 1.45;
+}
