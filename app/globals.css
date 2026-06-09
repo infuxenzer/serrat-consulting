@@ -342,25 +342,33 @@ button {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap: 28px;
+    gap: 18px;
     padding: 28px 24px;
+    overflow-x: hidden;
   }
 
   .brandName {
     font-size: 30px;
+    letter-spacing: 0.14em;
+    white-space: normal;
+    line-height: 1.15;
   }
 
   .navLinks {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 18px;
+    gap: 14px;
     font-size: 20px;
+    letter-spacing: 0.12em;
+    width: 100%;
   }
 
   .navLinks a,
   .navButton {
     padding: 0;
+    white-space: normal;
+    line-height: 1.2;
   }
 
   .blackRule {
@@ -378,15 +386,18 @@ button {
   }
 
   .dropdownMenu {
-    left: 0;
+    position: static;
     transform: none;
-    top: 28px;
-    min-width: 300px;
+    min-width: 0;
+    width: 100%;
+    padding: 18px 0 0;
+    border-top: none;
     text-align: left;
   }
 
   .dropdownMenu a {
-    font-size: 20px;
+    font-size: 18px;
+    white-space: normal;
   }
 
   .archiveTop {
