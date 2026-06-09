@@ -51,67 +51,68 @@ export default function CaseStudiesPage() {
           </ul>
 
           <figure>
-            <div className="forecastTableBlock">
-  <h3>Forecasted Agave Price</h3>
-
-  <table className="forecastTable">
-    <thead>
-      <tr>
-        <th>Year</th>
-        <th>Forecasted Price MXN/KG</th>
-      </tr>
-    </thead>
-
-    <tbody>
-      <tr>
-        <td>2025</td>
-        <td>9.470631</td>
-      </tr>
-      <tr>
-        <td>2026</td>
-        <td>5.310221</td>
-      </tr>
-      <tr>
-        <td>2027</td>
-        <td>2.605933</td>
-      </tr>
-      <tr>
-        <td>2028</td>
-        <td>1.909590</td>
-      </tr>
-      <tr>
-        <td>2029</td>
-        <td>2.015990</td>
-      </tr>
-      <tr>
-        <td>2030</td>
-        <td>2.443314</td>
-      </tr>
-      <tr>
-        <td>2031</td>
-        <td>2.998939</td>
-      </tr>
-      <tr>
-        <td>2032</td>
-        <td>3.605857</td>
-      </tr>
-      <tr>
-        <td>2033</td>
-        <td>4.233280</td>
-      </tr>
-      <tr>
-        <td>2034</td>
-        <td>4.868901</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
             <img
               src="/agave-price-forcast.png"
               alt="Agave price forecast chart from 2003 to 2034"
             />
             <figcaption>Agave Price Forecast, 2003–2034</figcaption>
           </figure>
+
+          <div className="forecastTableBlock">
+            <h3>Forecasted Agave Price</h3>
+
+            <table className="forecastTable">
+              <thead>
+                <tr>
+                  <th>Year</th>
+                  <th>Forecasted Price MXN/KG</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>2025</td>
+                  <td>9.470631</td>
+                </tr>
+                <tr>
+                  <td>2026</td>
+                  <td>5.310221</td>
+                </tr>
+                <tr>
+                  <td>2027</td>
+                  <td>2.605933</td>
+                </tr>
+                <tr>
+                  <td>2028</td>
+                  <td>1.909590</td>
+                </tr>
+                <tr>
+                  <td>2029</td>
+                  <td>2.015990</td>
+                </tr>
+                <tr>
+                  <td>2030</td>
+                  <td>2.443314</td>
+                </tr>
+                <tr>
+                  <td>2031</td>
+                  <td>2.998939</td>
+                </tr>
+                <tr>
+                  <td>2032</td>
+                  <td>3.605857</td>
+                </tr>
+                <tr>
+                  <td>2033</td>
+                  <td>4.233280</td>
+                </tr>
+                <tr>
+                  <td>2034</td>
+                  <td>4.868901</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
 
         <div className="pageLinks">
