@@ -25,10 +25,9 @@ export default function ServicesPage() {
                 industry data into strategic insight for smaller producers, investors, and
                 emerging agave spirits brands.
               </p>
-          <span>[ tequila and agave strategy ]</span>
+    
           <span>[ brand positioning ]</span>
-          <span>[ launch planning ]</span>
-          <span>[ cross-border cultural translation ]</span>
+      
         </div>
 
         <a className="backLink" href="/">
