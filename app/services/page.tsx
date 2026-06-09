@@ -1,18 +1,9 @@
+import Header from "../components/Header";
+
 export default function ServicesPage() {
   return (
     <main className="archivePage">
-      <header className="archiveTop">
-        <a href="/">SERRAT SPIRITS</a>
-        
-        <nav className="navLinks">
-          <a href="/profile">PROFILE</a>
-          <a href="/services">SERVICES</a>
-          <a href="/case-studies">CASE STUDIES</a>
-          <a href="/contact">CONTACT</a>
-        </nav>
-      </header>
-
-      <div className="blackRule" />
+      <Header />
 
       <section className="archiveRoom">
         <h1>Services</h1>
@@ -22,19 +13,49 @@ export default function ServicesPage() {
           products, entering markets, or refining their positioning.
         </p>
 
-        <div className="pageLinks">
-          <span>[ market research ]</span>
-            <span>[ Market Research ]</span>
-              <p>
-                Industry research focused on market concentration, producer scale, brand
-                ownership, export growth, geographic production patterns, and distribution
-                access within the global tequila market. This work translates structural
-                industry data into strategic insight for smaller producers, investors, and
-                emerging agave spirits brands.
-              </p>
-    
-          <span>[ brand positioning ]</span>
-      
+        <div className="serviceList">
+          <div className="serviceItem">
+            <h2>[ Market Research ]</h2>
+
+            <p>
+              Industry research focused on market concentration, producer scale,
+              brand ownership, export growth, geographic production patterns,
+              and distribution access within the global tequila market. This
+              work translates structural industry data into strategic insight
+              for smaller producers, investors, and emerging agave spirits
+              brands.
+            </p>
+          </div>
+
+          <div className="serviceItem">
+            <h2>[ Brand Positioning ]</h2>
+
+            <p>
+              Strategic support for brands defining their identity, audience,
+              market role, and point of difference within competitive beverage
+              and cultural spaces.
+            </p>
+          </div>
+
+          <div className="serviceItem">
+            <h2>[ Market Entry Strategy ]</h2>
+
+            <p>
+              Guidance for producers and emerging brands preparing to enter new
+              markets, approach importers, evaluate distribution pathways, and
+              sequence launch decisions.
+            </p>
+          </div>
+
+          <div className="serviceItem">
+            <h2>[ Agave Price Analysis ]</h2>
+
+            <p>
+              Forecasting and analysis around agave price cycles, production
+              growth, sourcing exposure, and long-term cost pressure within the
+              tequila supply chain.
+            </p>
+          </div>
         </div>
 
         <a className="backLink" href="/">
