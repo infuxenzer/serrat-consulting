@@ -12,8 +12,6 @@ export default function Header() {
 
             <div className="dropdownMenu">
               <a href="/profile">Profile</a>
-              <a href="/industries">Industries</a>
-              <a href="/alliances">Alliances</a>
             </div>
           </div>
 
@@ -23,6 +21,8 @@ export default function Header() {
             <div className="dropdownMenu">
               <a href="/case-studies">Case Studies</a>
               <a href="/services">Services</a>
+              <a href="/industries">Industries</a>
+              <a href="/alliances">Alliances</a>
             </div>
           </div>
 
