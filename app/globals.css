@@ -630,7 +630,24 @@ button {
   .statCard strong {
     font-size: 30px;
   }
+  .contactBlock {
+    margin-top: 42px;
+  }
 
+  .contactBlock h2 {
+    font-size: 30px;
+  }
+
+  .emailLink {
+    font-size: 18px;
+    line-height: 1.4;
+    word-break: break-word;
+  }
+
+  .contactPrompt ul {
+    font-size: 16px;
+    line-height: 1.45;
+  }
   .profileRoom {
     display: block;
     padding: 54px 28px;
