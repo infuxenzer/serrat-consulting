@@ -3,6 +3,13 @@ export default function ServicesPage() {
     <main className="archivePage">
       <header className="archiveTop">
         <a href="/">SERRAT SPIRITS</a>
+        
+        <nav className="navLinks">
+          <a href="/profile">PROFILE</a>
+          <a href="/services">SERVICES</a>
+          <a href="/case-studies">CASE STUDIES</a>
+          <a href="/contact">CONTACT</a>
+        </nav>
       </header>
 
       <div className="blackRule" />
