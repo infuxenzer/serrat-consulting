@@ -117,7 +117,6 @@ export default function CaseStudiesPage() {
 
         <div className="pageLinks">
           <span>[ tequila market research ]</span>
-          <span>[ agave price analysis ]</span>
           <span>[ beverage brand development ]</span>
         </div>
 
