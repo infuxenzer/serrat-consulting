@@ -1,11 +1,9 @@
+import Header from "../components/Header";
+
 export default function CaseStudiesPage() {
   return (
     <main className="archivePage">
-      <header className="archiveTop">
-        <a href="/">SERRAT SPIRITS</a>
-      </header>
-
-      <div className="blackRule" />
+      <Header />
 
       <section className="archiveRoom">
         <h1>Case Studies</h1>
@@ -115,9 +113,95 @@ export default function CaseStudiesPage() {
           </div>
         </div>
 
+        <div className="caseStudyBlock">
+          <p className="sectionEyebrow">Case Study</p>
+
+          <h2>Tequila Market Structure</h2>
+
+          <div className="statGrid">
+            <div className="statCard">
+              <strong>302%</strong>
+              <span>U.S. tequila category growth since 2003</span>
+            </div>
+
+            <div className="statCard">
+              <strong>21.6%</strong>
+              <span>
+                Share of total U.S. spirits revenue, on 14.7% of volume
+              </span>
+            </div>
+
+            <div className="statCard">
+              <strong>62.3%</strong>
+              <span>Dollar share held by just four parent companies</span>
+            </div>
+
+            <div className="statCard">
+              <strong>47.8%</strong>
+              <span>Of all retail dollars spent on bottles $45 and above</span>
+            </div>
+          </div>
+
+          <p>
+            Tequila is one of the fastest-growing spirits categories in the
+            world. The U.S. market has expanded by more than 300% since 2003,
+            demand continues to climb, and the category generates a
+            disproportionate share of total spirits revenue relative to its
+            volume. By most measures, the opportunity has never been larger.
+          </p>
+
+          <p>
+            But aggregate growth tells an incomplete story. The United States
+            absorbs over 82% of all tequila exports by volume, making U.S.
+            distribution access not just advantageous but effectively
+            determinative of whether a brand can compete internationally at all.
+            Within that market, four multinational parent companies — Diageo,
+            Proximo Spirits, Bacardi, and Beam Suntory — collectively control
+            nearly two-thirds of both dollar and volume sales. Their advantage
+            is not only brand recognition. It is distribution infrastructure,
+            capital access, portfolio strategy, and market visibility operating
+            at a scale smaller producers cannot easily match.
+          </p>
+
+          <p>
+            The premium segment compounds the imbalance further. Nearly half of
+            all retail tequila dollars are spent on bottles priced at $45 and
+            above, and luxury tequila grew at an average of 37% annually between
+            2018 and 2023 — the fastest rate of any spirits category tracked in
+            the period. The segment generating the most revenue per bottle is
+            also the segment most dependent on brand investment, distributor
+            relationships, and on-premise visibility — precisely the resources
+            that are hardest for independent and emerging producers to access.
+          </p>
+
+          <p>
+            At the same time, international markets remain open. Outside the
+            United States, tequila is still developing its position in many
+            premium beverage markets, creating room for brands that can enter
+            early, educate the trade, and build credibility before the category
+            becomes fully consolidated. For smaller producers, the opportunity
+            is not necessarily to outspend the largest companies, but to
+            identify markets where timing, positioning, relationships, and
+            cultural fluency can still create an advantage.
+          </p>
+
+          <p>
+            For smaller brands and independent producers, this is the
+            environment they are entering. The market is large and growing, the
+            consumer appetite for premium and craft expressions is real, and the
+            structural barriers to capturing that demand are significant.
+            Navigating them requires a clear understanding of where the category
+            is going, who controls the channels that matter, and how to position
+            a brand to compete on the terms where size is not the only
+            advantage.
+          </p>
+
+          <p>That is the work.</p>
+        </div>
+
         <div className="pageLinks">
-          <span>[ tequila market research ]</span>
-          <span>[ beverage brand development ]</span>
+         
+          <span>[ International Markets ]</span>
         </div>
 
         <a className="backLink" href="/">
