@@ -81,7 +81,7 @@ export default function ProfilePage() {
         </div>
 
         <aside className="profileImageBlock">
-          <img src="/profile.jpg" alt="Montserrat Rodriguez" />
+          <img src="/profile.png" alt="Montserrat Rodriguez" />
           <p>Montserrat Rodriguez / Serrat Spirits Consulting</p>
         </aside>
       </section>
