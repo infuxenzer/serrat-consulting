@@ -18,7 +18,7 @@ export default function Header() {
           </div>
 
           <div className="navItem dropdown">
-            <button className="navButton">Case Studies</button>
+            <button className="navButton">Capabilities</button>
 
             <div className="dropdownMenu">
               <a href="/case-studies">Case Studies</a>
