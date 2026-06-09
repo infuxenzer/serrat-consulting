@@ -195,6 +195,49 @@ button {
   letter-spacing: 0.12em;
 }
 
+/* profile page */
+
+.profileRoom {
+  display: grid;
+  grid-template-columns: minmax(0, 760px) 320px;
+  gap: 72px;
+  padding: 72px 48px;
+  align-items: start;
+}
+
+.profileText h1 {
+  margin: 0 0 38px;
+  font-size: clamp(42px, 7vw, 84px);
+  font-weight: 400;
+  letter-spacing: 0.12em;
+}
+
+.profileText p {
+  max-width: 760px;
+  font-size: 20px;
+  line-height: 1.45;
+}
+
+.profileImageBlock {
+  position: sticky;
+  top: 110px;
+  margin-top: 26px;
+}
+
+.profileImageBlock img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid #000000;
+}
+
+.profileImageBlock p {
+  margin: 14px 0 0;
+  font-size: 14px;
+  line-height: 1.35;
+  letter-spacing: 0.08em;
+}
+
 /* mobile */
 
 @media (max-width: 900px) {
@@ -264,5 +307,23 @@ button {
   .archiveRoom p,
   .pageLinks {
     font-size: 18px;
+  }
+
+  .profileRoom {
+    display: block;
+    padding: 54px 28px;
+  }
+
+  .profileText h1 {
+    font-size: 42px;
+  }
+
+  .profileText p {
+    font-size: 18px;
+  }
+
+  .profileImageBlock {
+    position: static;
+    margin-top: 48px;
   }
 }
