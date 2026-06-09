@@ -116,7 +116,6 @@ export default function CaseStudiesPage() {
         </div>
 
         <div className="pageLinks">
-          <a href="https://serratmx.com">[ serrat mx / iteración 6 ]</a>
           <span>[ tequila market research ]</span>
           <span>[ agave price analysis ]</span>
           <span>[ beverage brand development ]</span>
