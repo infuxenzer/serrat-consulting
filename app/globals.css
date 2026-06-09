@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: #ffffff;
+  color: #000000;
+  font-family: "Courier New", Courier, monospace;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  font-family: inherit;
+}
+
+/* homepage */
+
+.homePage {
+  min-height: 100vh;
+  background: #ffffff;
+  color: #000000;
+}
+
+.topNav {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 34px;
+  background: #ffffff;
+}
+
+.brandName {
+  font-size: clamp(26px, 3vw, 42px);
+  font-weight: 400;
+  letter-spacing: 0.16em;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: clamp(26px, 4vw, 58px);
+  font-size: clamp(18px, 1.8vw, 28px);
+  font-weight: 400;
+  letter-spacing: 0.18em;
+}
+
+.navLinks a,
+.navButton {
+  font-size: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  background: none;
+  border: none;
+  color: #000000;
+  cursor: pointer;
+  padding: 24px 0;
+  white-space: nowrap;
+}
+
+.blackRule {
+  height: 18px;
+  width: 100%;
+  background: #000000;
+}
+
+.heroCenter {
+  min-height: calc(100vh - 90px);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subhead {
+  position: absolute;
+  top: 16px;
+  left: 20%;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+}
+
+.logoMark {
+  width: min(290px, 45vw);
+}
+
+.logoMark img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* dropdown */
+
+.dropdown {
+  position: relative;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 72px;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 360px;
+  padding: 22px 28px 28px;
+  background: #ffffff;
+  border-top: 18px solid #000000;
+  display: none;
+  flex-direction: column;
+  gap: 24px;
+  z-index: 20;
+  text-align: center;
+}
+
+.dropdown:hover .dropdownMenu {
+  display: flex;
+}
+
+.dropdownMenu a {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  padding: 0;
+  white-space: nowrap;
+}
+
+/* inner pages */
+
+.archivePage {
+  min-height: 100vh;
+  background: #ffffff;
+  color: #000000;
+}
+
+.archiveTop {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  padding: 0 34px;
+  background: #ffffff;
+}
+
+.archiveTop a {
+  font-size: clamp(26px, 3vw, 42px);
+  font-weight: 400;
+  letter-spacing: 0.16em;
+}
+
+.archiveRoom {
+  padding: 72px 48px;
+  max-width: 980px;
+}
+
+.archiveRoom h1 {
+  margin: 0 0 38px;
+  font-size: clamp(42px, 7vw, 84px);
+  font-weight: 400;
+  letter-spacing: 0.12em;
+}
+
+.archiveRoom p {
+  max-width: 760px;
+  font-size: 20px;
+  line-height: 1.45;
+}
+
+.pageLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 44px;
+  font-size: 22px;
+  line-height: 1.4;
+}
+
+.backLink {
+  display: inline-block;
+  margin-top: 70px;
+  font-size: 18px;
+  letter-spacing: 0.12em;
+}
+
+/* mobile */
+
+@media (max-width: 900px) {
+  .topNav {
+    height: auto;
+    min-height: 72px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 14px;
+    padding: 22px 24px;
+  }
+
+  .brandName {
+    font-size: 28px;
+  }
+
+  .navLinks {
+    gap: 18px;
+    flex-wrap: wrap;
+    font-size: 18px;
+  }
+
+  .blackRule {
+    height: 16px;
+  }
+
+  .heroCenter {
+    min-height: 70vh;
+  }
+
+  .subhead {
+    left: 24px;
+    top: 22px;
+    font-size: 16px;
+  }
+
+  .dropdownMenu {
+    left: 0;
+    transform: none;
+    top: 48px;
+    min-width: 300px;
+    text-align: left;
+  }
+
+  .dropdownMenu a {
+    font-size: 20px;
+  }
+
+  .archiveTop {
+    height: 72px;
+    padding: 0 24px;
+  }
+
+  .archiveTop a {
+    font-size: 28px;
+  }
+
+  .archiveRoom {
+    padding: 54px 28px;
+  }
+
+  .archiveRoom h1 {
+    font-size: 42px;
+  }
+
+  .archiveRoom p,
+  .pageLinks {
+    font-size: 18px;
+  }
+}
