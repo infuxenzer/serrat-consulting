@@ -75,15 +75,15 @@ export default function ProfilePage() {
             spirits space.
           </p>
 
+          <aside className="profileImageBlock">
+            <img src="/profile.png" alt="Montserrat Rodriguez" />
+            <p>Montserrat Rodriguez / Serrat Spirits Consulting</p>
+          </aside>
+
           <a className="backLink" href="/">
             [ back ]
           </a>
         </div>
-
-        <aside className="profileImageBlock">
-          <img src="/profile.png" alt="Montserrat Rodriguez" />
-          <p>Montserrat Rodriguez / Serrat Spirits Consulting</p>
-        </aside>
       </section>
     </main>
   );
