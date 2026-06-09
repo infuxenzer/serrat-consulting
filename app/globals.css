@@ -239,7 +239,6 @@ button {
 }
 
 /* mobile */
-
 @media (max-width: 900px) {
   .topNav {
     height: auto;
@@ -247,18 +246,25 @@ button {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap: 14px;
-    padding: 22px 24px;
+    gap: 28px;
+    padding: 28px 24px;
   }
 
   .brandName {
-    font-size: 28px;
+    font-size: 30px;
   }
 
   .navLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     gap: 18px;
-    flex-wrap: wrap;
-    font-size: 18px;
+    font-size: 20px;
+  }
+
+  .navLinks a,
+  .navButton {
+    padding: 0;
   }
 
   .blackRule {
@@ -278,7 +284,7 @@ button {
   .dropdownMenu {
     left: 0;
     transform: none;
-    top: 48px;
+    top: 28px;
     min-width: 300px;
     text-align: left;
   }
@@ -320,10 +326,24 @@ button {
 
   .profileText p {
     font-size: 18px;
+    line-height: 1.45;
   }
 
   .profileImageBlock {
     position: static;
+    width: 100%;
     margin-top: 48px;
+  }
+
+  .profileImageBlock img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .profileImageBlock p {
+    font-size: 14px;
+    line-height: 1.35;
+    letter-spacing: 0.06em;
   }
 }
