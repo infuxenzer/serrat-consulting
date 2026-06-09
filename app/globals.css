@@ -200,6 +200,7 @@ button {
 .caseStudyBlock {
   max-width: 1000px;
   margin-top: 56px;
+  display: block;
 }
 
 .caseStudyBlock h2 {
@@ -246,6 +247,36 @@ button {
   margin-top: 12px;
   font-size: 14px;
   letter-spacing: 0.08em;
+}
+
+.forecastTableBlock {
+  max-width: 760px;
+  margin: 38px 0 20px;
+  display: block;
+}
+
+.forecastTableBlock h3 {
+  margin: 0 0 18px;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+
+.forecastTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 18px;
+}
+
+.forecastTable th,
+.forecastTable td {
+  border: 1px solid #000000;
+  padding: 10px 12px;
+  text-align: left;
+}
+
+.forecastTable th {
+  font-weight: 700;
 }
 
 /* profile page */
@@ -382,6 +413,7 @@ button {
   }
 
   .caseStudyBlock {
+    display: block;
     max-width: 100%;
     margin-top: 42px;
   }
@@ -398,6 +430,18 @@ button {
   .caseStudyBlock figure,
   .caseStudyBlock img {
     max-width: 100%;
+  }
+
+  .forecastTableBlock {
+    display: block;
+    max-width: 100%;
+    margin-top: 32px;
+    overflow-x: auto;
+  }
+
+  .forecastTable {
+    font-size: 16px;
+    min-width: 520px;
   }
 
   .profileRoom {
@@ -431,32 +475,4 @@ button {
     line-height: 1.35;
     letter-spacing: 0.06em;
   }
-}
-.forecastTableBlock {
-  max-width: 760px;
-  margin: 38px 0 20px;
-}
-
-.forecastTableBlock h3 {
-  margin: 0 0 18px;
-  font-size: 24px;
-  font-weight: 400;
-  letter-spacing: 0.1em;
-}
-
-.forecastTable {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 18px;
-}
-
-.forecastTable th,
-.forecastTable td {
-  border: 1px solid #000000;
-  padding: 10px 12px;
-  text-align: left;
-}
-
-.forecastTable th {
-  font-weight: 700;
 }
