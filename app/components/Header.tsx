@@ -3,7 +3,7 @@ export default function Header() {
     <>
       <header className="topNav">
         <a className="brandName" href="/">
-          Serrat Spirits
+          SERRAT SPIRITS
         </a>
 
         <nav className="navLinks">
