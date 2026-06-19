@@ -79,7 +79,9 @@ export default function ProfilePage() {
       <aside className="profileImageBlock">
         <img src="/profile.png" alt="Montserrat Rodriguez" />
         <p>Montserrat Rodriguez / Serrat Spirits Consulting</p>
-
+ 
+        <p className="profileLinksLabel">Links</p>
+        
       <div className="profileFeatureLinks">
         <a
           href="https://www.uag.mx/es/mediahub/viene-desde-nueva-york-a-estudiar-la-maestria-en-procesos-del-tequila-en-la-uag/2025-03"
@@ -87,7 +89,7 @@ export default function ProfilePage() {
           rel="noopener noreferrer"
     
         >
-           - Universidad de Guadaljara Autonoma Profile Feature 
+           - Universidad Autónoma de Guadalajara Profile Feature 
         </a>
 
         <a
