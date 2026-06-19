@@ -684,3 +684,21 @@ button {
     margin-top: 54px;
   }
 }
+.profileFeatureLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.profileFeatureLinks a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.profileFeatureLinks a:hover {
+  text-decoration: underline;
+}
