@@ -75,12 +75,39 @@ export default function ProfilePage() {
             spirits space.
           </p>
         </div>
+        
+      <aside className="profileImageBlock">
+        <img src="/profile.png" alt="Montserrat Rodriguez" />
+        <p>Montserrat Rodriguez / Serrat Spirits Consulting</p>
 
-        <aside className="profileImageBlock">
-          <img src="/profile.png" alt="Montserrat Rodriguez" />
-          <p>Montserrat Rodriguez / Serrat Spirits Consulting</p>
-        </aside>
+      <div className="profileFeatureLinks">
+        <a
+          href="https://www.uag.mx/es/mediahub/viene-desde-nueva-york-a-estudiar-la-maestria-en-procesos-del-tequila-en-la-uag/2025-03"
+          target="_blank"
+          rel="noopener noreferrer"
+    
+        >
+           Universidad de Guadaljara Autonoma Profile Feature 
+        </a>
 
+        <a
+          href="https://www.uag.mx/es/mediahub/estudiantes-de-posgrados-visitan-el-tequila-lab/2025-04"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+           Tequila Lab Feature 
+        </a>
+
+        <a
+          href="https://www.uag.mx/es/mediahub/estudiantes-de-maestria-visitan-tequila-casa-de-los-gonzalez/2025-08"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+           Casa de Los González Feature 
+        </a>
+      </div>
+    </aside>
+        
         <a className="backLink profileBackLink" href="/">
           [ back ]
         </a>
