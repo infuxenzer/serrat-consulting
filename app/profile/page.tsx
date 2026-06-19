@@ -87,7 +87,7 @@ export default function ProfilePage() {
           rel="noopener noreferrer"
     
         >
-           Universidad de Guadaljara Autonoma Profile Feature 
+           - Universidad de Guadaljara Autonoma Profile Feature 
         </a>
 
         <a
@@ -95,7 +95,7 @@ export default function ProfilePage() {
           target="_blank"
           rel="noopener noreferrer"
         >
-           Tequila Lab Feature 
+           - Tequila Lab Feature 
         </a>
 
         <a
@@ -103,7 +103,7 @@ export default function ProfilePage() {
           target="_blank"
           rel="noopener noreferrer"
         >
-           Casa de Los González Feature 
+           - Casa de Los González Feature 
         </a>
       </div>
     </aside>
